@@ -1,17 +1,4 @@
-DROP DATABASE IF EXISTS bamazon;
-
-CREATE DATABASE bamazon;
-
 USE bamazon;
-
-CREATE TABLE products (
-  id INTEGER NOT NULL AUTO_INCREMENT,
-  product_name VARCHAR(50) NOT NULL,
-  department_name VARCHAR(50) NOT NULL,
-  price DECIMAL(7,2) NOT NULL,
-  stock_quantity INTEGER(10) NOT NULL,
-  PRIMARY KEY (id)  
-);
 
 INSERT INTO products (product_name, department_name, price, stock_quantity)
 VALUES ("Firebolt Broom", "Quality Quidditch Supplies", 3000, 10), ("Racing goggles", "Quality Quidditch Supplies", 199.99, 10);
@@ -27,5 +14,3 @@ VALUES ("Trick Wands", "Weasleys' Wizard Wheezes", 2.75, 250), ("Ton-Tongue Toff
 
 INSERT INTO products (product_name, department_name, price, stock_quantity)
 VALUES ("Hand of Glory", "Borgin and Burkes", 5000, 1);
-
-SELECT * FROM products;
