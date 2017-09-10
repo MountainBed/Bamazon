@@ -13,16 +13,10 @@ var connection = mysql.createConnection({
   database: "bamazon"
 });
 
-connection.connect(function (err) {
-  if (err) throw err;
-
-  displayMainTable();
-});
-
 function displayMainTable () {
   var table = new Table({
     head: ["ID #", "Product", "Price", "Stock"],
-    colWidths: [5, 30, 10, 10],
+    colWidths: [8, 30, 10, 10],
     chars: { "top": "═",
       "top-mid": "╤",
       "top-left": "╔",
@@ -172,3 +166,9 @@ function updateProductDatabase () {
     }
   });
 };
+
+connection.connect(function (err) {
+  if (err) throw err;
+
+  displayMainTable();
+});

@@ -1,5 +1,3 @@
-USE bamazon;
-
 INSERT INTO products (product_name, department_name, price, stock_quantity)
 VALUES ("Firebolt Broom", "Quality Quidditch Supplies", 3000, 10), ("Racing goggles", "Quality Quidditch Supplies", 199.99, 10);
 
