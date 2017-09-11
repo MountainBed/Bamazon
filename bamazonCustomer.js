@@ -163,6 +163,7 @@ function updateProductDatabase () {
       updateProductDatabase();
     } else {
       console.log("Thanks for shopping with us!");
+      connection.end();
     }
   });
 };
