@@ -23,13 +23,13 @@ An Amazon-like storefront using MySQL and node.js. This contains both a customer
 
 ### Customer Interface  
 1. To start the customer interface, use the command "node bamazonCustomer.js" in the command line.  
-![start](https://i.imgur.com/6ykLMDl.png =150x)  
+![start](https://i.imgur.com/6ykLMDl.png width="150")  
 2. Next, the select the product(s) you would like to add to your cart by using the arrow keys to highlight the item and the spacebar to select it. Press enter to move to the next step.  
-![select](https://i.imgur.com/Gv5qkG2.png =150x)  
+![select](https://i.imgur.com/Gv5qkG2.png width="150")  
 3. Next, provide the number of each product you would like to add to your cart. Press enter to move to the next step. If you are trying to purchase more items than are in stock, you will be notified and asked to change the desired amount.  
-![quantity](https://i.imgur.com/xybijZ6.png =150x)  
+![quantity](https://i.imgur.com/xybijZ6.png width="150")  
 4. The app will then provide you with a receipt, broken down by product, as well as the total cost of each item and the total cost of the purchase.  
-![final](https://i.imgur.com/IFHImXZ.png =150x)  
+![final](https://i.imgur.com/IFHImXZ.png width="150")  
 
 ### Manager Interface  
 1. To start the manager interface, use the command "node bamazonManager.js" in the command line.  
@@ -43,10 +43,10 @@ This command will provide a table of the products that have less than 5 in stock
 2. Next, determine how much more stock you would like to add for the selected product. Once this has been completed, you will be notified that the inventory has been updated and the original command list will be displayed again.  
 #### Add New Product  
 1. This command will give you the ability to add a new product for sale. To do this, the following information is required:  
-  -Product name
-  -Department name
-  -Cost of the item
-  -Stock of the item  
+  *Product name  
+  *Department name  
+  *Cost of the item  
+  *Stock of the item  
 2. The item will then be added to the database and the original command list will be displayed again. 
 #### Exit
 This command will end your interaction with the application.  
