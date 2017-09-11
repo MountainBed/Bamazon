@@ -174,6 +174,8 @@ function addNewProduct () {
       type: "input",
       message: "How much does this item cost?",
       validate: function (value) {
+        value = parseInt(value) * 100;
+
         if (value % 1 === 0) {
           return true;
         }
