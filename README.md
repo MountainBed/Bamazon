@@ -33,21 +33,28 @@ An Amazon-like storefront using MySQL and node.js. This contains both a customer
 
 ### Manager Interface  
 1. To start the manager interface, use the command "node bamazonManager.js" in the command line.  
-2. Select which action you would like to complete.  
+2. Select which action you would like to complete. 
+![start](https://i.imgur.com/4fHs5Uf.png)  
 #### View Products for Sale  
 This command will provide a table of the products that are currently for sale. After this is displayed, you will be shown the original command list.  
+![view products](https://i.imgur.com/Jqsp7Dz.png)  
 #### View Low Inventory  
 This command will provide a table of the products that have less than 5 in stock. After this is displayed, you will be shown the original command list.  
+![low inventory](https://i.imgur.com/fjkiSQ9.png)  
 #### Add to Inventory  
 1.  This command will produce a list of the items that are currently in stock. Select which item you want to add inventory to.  
+![add inventory](https://i.imgur.com/Ycq2mMc.png)  
 2. Next, determine how much more stock you would like to add for the selected product. Once this has been completed, you will be notified that the inventory has been updated and the original command list will be displayed again.  
+![quantity of new product](https://i.imgur.com/BGrMkIM.png)  
 #### Add New Product  
 1. This command will give you the ability to add a new product for sale. To do this, the following information is required:  
   * Product name  
   * Department name  
   * Cost of the item  
   * Stock of the item  
-2. The item will then be added to the database and the original command list will be displayed again. 
+![add product](https://i.imgur.com/jlHkDqr.png)
+2. The item will then be added to the database and the original command list will be displayed again.  
+![added product](https://i.imgur.com/G6AZQnk.png)
 #### Exit
 This command will end your interaction with the application.  
 
