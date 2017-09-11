@@ -1,5 +1,5 @@
 # Bamazon
-An Amazon-like storefront using MySQL and node.js. This contains both a customer Interface, as well as a Manager interface.  
+An Amazon-like storefront using MySQL and node.js. This contains both a Customer Interface, as well as a Manager interface.  
 
 ## Features  
 ### Customer Interface  
